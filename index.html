@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retroindica</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Include the EmailJS script in the HTML -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header class="header bg-blue">
+        <nav class="navbar bg-blue">
+            <div class="container flex">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <img src = "images/logo.png" alt = "site logo"> -->
+                    <h1 style="color: white;">Retroindica</h1>
+                </a>
+                <button type="button" class="navbar-show-btn">
+                    <img src="images/ham-menu-icon.png">
+                </button>
+
+                <div class="navbar-collapse bg-white">
+                    <button type="button" class="navbar-hide-btn">
+                        <img src="images/close-icon.png">
+                    </button>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./Vision and Mission/index.html" class="nav-link">Vision And Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#R&D" class="nav-link">Research And Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#technologies" class="nav-link">Technologies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#wokingwithus" class="nav-link">Working With Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="home" class="header-inner text-white text-center">
+            <div class="container grid">
+                <div class="header-inner-left">
+                    <h1>Your Trusted Partner in <br> <span>Biotech Innovation</span></h1>
+                    <p class="lead">Pioneering Diagnostics and Therapeutics</p>
+                    <p class="text text-md">
+                        At Retroindica, we are shaping the future of healthcare with cutting-edge diagnostic solutions
+                        and biosimilars for improved patient outcomes.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#about" class="btn btn-white">Explore Solutions</a>
+                        <a href="#contact" class="btn btn-light-blue">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="header-inner-right">
+                    <img src="images/header_image_new.png" alt="Biotech Innovations">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <main>
+        <!-- about section -->
+        <section id="about" class="about py">
+            <div class="about-inner">
+                <div class="container grid">
+                    <div class="about-left text-center">
+                        <div class="section-head">
+                            <h2>About Us</h2>
+                            <div class="border-line"></div>
+                        </div>
+                        <p class="text text-lg">Retroindica is a biotechnology company dedicated to revolutionizing healthcare through innovative diagnostic solutions and therapeutic products. Founded in 2018, we specialize in cutting-edge Multiplex Lateral Flow Assays (LFAs) for the rapid detection of viral infections, including respiratory viruses, and various other pathogens. Our focus spans across critical areas of healthcare: diagnostic innovations, cancer diagnostics, and biosimilar development.</p>
+                        <p class="text text-lg">Our diagnostic innovations include rapid, reliable LFAs for detecting a wide range of infectious diseases, including respiratory viruses like SARS-CoV-2, Influenza A, and Influenza B, as well as other pathogens. Committed to early cancer detection, we are designing LFAs to identify multiple biomarkers associated with various types of cancer. Leveraging our expertise in antibody engineering, we are developing high-quality biosimilars, particularly monoclonal antibodies, for the treatment of viral infections and cancers.</p>
+                        <a href="./Vision and Mission/index.html" class="btn btn-white">Learn More</a>
+                    </div>
+                    <div class="about-right flex">
+                        <div class="img">
+                            <img src="images/About_us1.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- banner one -->
+        <section id="banner-one" class="banner-one text-center">
+            <div class="container text-white">
+                <blockquote class="lead"><i class="fas fa-quote-left"></i> Innovation in diagnostics and therapeutics
+                    isn't just about technology; it's about bringing hope, health, and access to every corner of the
+                    world. <i class="fas fa-quote-right"></i></blockquote>
+                <small class="text text-sm">- Retroindica Founder</small>
+            </div>
+        </section>
+        <!-- end of banner one -->
+
+        <!-- services section -->
+        <section id="technologies" class="services py">
+            <div class="container">
+                <div class="section-head text-center">
+                    <h2 class="lead">Retroindica Biotechnology Services</h2>
+                    <p class="text text-lg">Innovative solutions for modern biotechnology challenges</p>
+                    <div class="line-art flex">
+                        <div></div>
+                        <img src="images/4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="services-inner text-center grid">
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/gene-editing.png">
+                        </div>
+                        <h3>Gene Editing</h3>
+                        <p class="text text-sm">Leverage the power of CRISPR technology for precise gene editing in
+                            agricultural and medical applications.</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/pharmaceutical.png">
+                        </div>
+                        <h3>Biopharmaceutical Development</h3>
+                        <p class="text text-sm">From concept to clinical trials, we provide full-scale biopharmaceutical
+                            product development services.</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/research.png">
+                        </div>
+                        <h3>Environmental Biotechnology</h3>
+                        <p class="text text-sm">Innovative bio-remediation techniques for sustainable environmental
+                            solutions and pollution control.</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/bioinformatics.png">
+                        </div>
+                        <h3>Bioinformatics</h3>
+                        <p class="text text-sm">Advanced data analysis for genomics, proteomics, and systems biology to
+                            accelerate research and development.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of services section -->
+
+
+
+        <!-- doctors section -->
+        <section id="doc-panel" class="doc-panel py">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Our Board Of Directors</h2>
+                </div>
+
+                <div class="doc-panel-inner grid">
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/person_image.jpeg" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Name</p>
+                                <p class="text-lg">Founder, CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/boardD_1.png" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Pradeep Vavilala</p>
+                                <p class="text-lg">Board Of Director</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="doc-panel-item">
+                        <div class="img flex">
+                            <img src="images/women_image.jpeg" alt="doctor image">
+                            <div class="info text-center bg-blue text-white flex">
+                                <p class="lead">Rajitha Muttineni</p>
+                                <p class="text-lg">Board Of Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of doctors section -->
+
+
+        <!-- Reasearch and development section -->
+        <section id="R&D" class="posts py">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Research and Development Updates</h2>
+                </div>
+                <div class="posts-inner grid">
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/GenomicResearch.jpeg">
+                        </div>
+                        <div class="content">
+                            <h4>Pioneering Advances in Genomic Research</h4>
+                            <p class="text text-sm">Our R&D team is making groundbreaking strides in understanding the
+                                human genome. Explore the latest findings that could unlock new treatments for genetic
+                                diseases.</p>
+                            <p class="text text-sm">Learn how this research is shaping the future of personalized
+                                medicine and genetic therapies.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 22, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 12 comments</small>
+                            </div>
+                            <div>
+                                <a href="./research and development/index.html" class="btn btn-light-blue">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/Biopharmaceutical-inovation.png">
+                        </div>
+                        <div class="content">
+                            <h4>Innovations in Biopharmaceutical R&D</h4>
+                            <p class="text text-sm">Our research division is focused on developing next-generation
+                                biopharmaceuticals aimed at treating rare and complex diseases.</p>
+                            <p class="text text-sm">Discover how these advancements in biopharma research are leading to
+                                more effective, targeted therapies.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 20, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 9 comments</small>
+                            </div>
+                            <div>
+                                <a href="./research and development/index.html" class="btn btn-light-blue">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/SustainableBiotechnology.jpeg">
+                        </div>
+                        <div class="content">
+                            <h4>Sustainable Biotechnological Solutions in R&D</h4>
+                            <p class="text text-sm">Our R&D department is at the forefront of developing sustainable
+                                biotechnologies to address environmental challenges.</p>
+                            <p class="text text-sm">Learn about the latest innovations in bio-remediation and
+                                sustainable environmental technologies.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 18, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 7 comments</small>
+                            </div>
+                            <div>
+                                <a href="./research and development/index.html" class="btn btn-light-blue">Learn
+                                    More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of Reasearch and development section -->
+
+
+        <!-- Working with Us -->
+        <section id="wokingwithus" class="services py">
+            <div class="container">
+                <div class="section-head text-center">
+                    <h2 class="lead">Working with Retroindica Biotechnology</h2>
+                    <p class="text text-lg">Join our team and be a part of the future of biotechnology innovation</p>
+                    <div class="line-art flex">
+                        <div></div>
+                        <img src="images/4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="services-inner text-center grid">
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/synthetic-biology.png">
+                        </div>
+                        <h3>Innovation-Driven Environment</h3>
+                        <p class="text text-sm">At Retroindica, we believe in pushing the boundaries of biotechnology
+                            with cutting-edge solutions and
+                            breakthrough discoveries. You’ll work alongside some of the brightest minds in the field.
+                        </p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/collaboration.png">
+                        </div>
+                        <h3>Collaborative Culture</h3>
+                        <p class="text text-sm">>We foster a collaborative and inclusive work culture, encouraging
+                            cross-disciplinary teamwork to achieve success together.</p>
+                        </p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/career-promotion.png">
+                        </div>
+                        <h3>Career Growth Opportunities</h3>
+                        <p class="text text-sm">We support continuous learning and professional growth, providing
+                            opportunities to expand your expertise in biotechnology and related fields.</p>
+                    </article>
+
+                    <article class="service-item">
+                        <div class="icon">
+                            <img src="images/job-advertisement.png">
+                        </div>
+                        <h3>Open Positions</h3>
+                        <p class="text text-sm">Explore current job openings and internships at Retroindica
+                            Biotechnology. We’re always looking for passionate, talented individuals to join our team.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- end of services section -->
+
+
+
+        <!-- package services section -->
+        <section id="services" class="package-service py text-center">
+            <div class="container">
+                <div class="package-service-head text-white">
+                    <h2>Package Service</h2>
+                    <p class="text text-lg">Explore the best biotechnology service packages for you</p>
+                </div>
+                <div class="package-service-inner grid">
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-dna fa-2x"></i>
+                        </div>
+                        <h3>Genomic Research</h3>
+                        <p class="text text-sm">Unlock the secrets of DNA with cutting-edge genomic research services
+                            tailored to your needs, ensuring precision and innovation.</p>
+                        <a href="#" class="btn btn-blue">Read More</a>
+                    </div>
+
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-microscope fa-2x"></i>
+                        </div>
+                        <h3>Laboratory Services</h3>
+                        <p class="text text-sm">Comprehensive laboratory testing and analysis to support your biotech
+                            projects, offering accuracy and efficiency in results.</p>
+                        <a href="#" class="btn btn-blue">Read More</a>
+                    </div>
+
+                    <div class="package-service-item bg-white">
+                        <div class="icon flex">
+                            <i class="fas fa-flask fa-2x"></i>
+                        </div>
+                        <h3>Biotech Consulting</h3>
+                        <p class="text text-sm">Expert consulting services in biotechnology to guide your projects from
+                            concept to execution, ensuring success at every step.</p>
+                        <a href="#" class="btn btn-blue">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of package services section -->
+
+
+        <!-- posts section -->
+        <section id="posts" class="posts py">
+            <div class="container">
+                <div class="section-head">
+                    <h2>Latest Biotechnology Insights</h2>
+                </div>
+                <div class="posts-inner grid">
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/crispr.jpeg">
+                        </div>
+                        <div class="content">
+                            <h4>Exploring the Future of Gene Editing with CRISPR Technology</h4>
+                            <p class="text text-sm">CRISPR is revolutionizing genetic research by enabling precise
+                                alterations in DNA. Learn how it can transform agriculture and medicine.</p>
+                            <p class="text text-sm">Dive deeper into the implications of CRISPR advancements in
+                                enhancing crop resilience and treating genetic disorders.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 22, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 10 comments</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/rare.jpeg">
+                        </div>
+                        <div class="content">
+                            <h4>Breakthroughs in Biopharmaceuticals: New Therapies for Rare Diseases</h4>
+                            <p class="text text-sm">Biopharmaceuticals are changing the landscape of drug development,
+                                offering personalized treatments for rare and complex diseases.</p>
+                            <p class="text text-sm">Discover how these therapies are being tailored to individual needs
+                                and the future potential of personalized medicine.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 20, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 8 comments</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="post-item bg-white">
+                        <div class="img">
+                            <img src="images/nature.jpeg">
+                        </div>
+                        <div class="content">
+                            <h4>Environmental Biotechnology: Harnessing Nature to Fight Pollution</h4>
+                            <p class="text text-sm">Environmental biotechnology offers innovative solutions to combat
+                                pollution and restore ecosystems. Learn about the latest bioremediation techniques.</p>
+                            <p class="text text-sm">From oil spill clean-ups to waste management, find out how
+                                biotechnology is making a positive environmental impact.</p>
+                            <div class="info flex">
+                                <small class="text text-sm"><i class="fas fa-clock"></i> September 18, 2024</small>
+                                <small class="text text-sm"><i class="fas fa-comment"></i> 6 comments</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- end of posts section -->
+
+
+        <!-- contact section -->
+        <section id="contact" class="contact py">
+            <div class="container grid">
+                <div class="contact-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1903.597495728205!2d78.58125225972289!3d17.402427498430526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9ec46f1a6d77%3A0x6579c0a6dc25fddb!2s1-89%2F2%2C%20Raghavendra%20Nagar%20Colony%2C%20Bhagya%20Nagar%20Colony%2C%20Peerzadiguda%2C%20Hyderabad%2C%20Telangana%20500092!5e0!3m2!1sen!2sin!4v1727103715210!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-right text-white text-center bg-blue">
+                    <div class="contact-head">
+                        <h3 class="lead">Contact Us</h3>
+                        <p class="text text-md">Feel free to get in touch with us!</p>
+                    </div>
+                    <form id="contact-form">
+                        <div class="form-element">
+                            <input type="text" class="form-control" name="from_name" id="from_name"
+                                placeholder="Your name" required>
+                        </div>
+                        <div class="form-element">
+                            <input type="text" class="form-control" name="to_name" id="to_name"
+                                placeholder="Recipient name" required>
+                        </div>
+                        <div class="form-element">
+                            <textarea rows="5" id="message" name="message" placeholder="Your Message"
+                                class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-white btn-submit" id="submit-btn">Send Email</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+    </main>
+
+    <!-- footer  -->
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="footer-inner text-white py grid">
+                <div class="footer-item">
+                    <h3 class="footer-head">about us</h3>
+                    <div class="icon">
+                        <!-- <img src="images/logo.png"> -->
+                        <h1 style="color: white;">Retroindica</h1>
+                    </div>
+                    <p class="text text-md">Shaping the future of healthcare with cutting-edge diagnostic solutions and
+                        biosimilars for improved patient outcomes.</p>
+                    <address>
+                        <b>Retroindica</b><br>
+                        Plot No.89, Raghavendra Nagar Colony, Uppal <br>
+                        Medchel-Malkajgiri- Dist. <br>
+                        Telangana, India-500039
+                    </address>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-head">tags</h3>
+                    <ul class="tags-list flex">
+                        <li>Biotechnologist</li>
+                        <li>Cellbiology</li>
+                        <li>Crispr</li>
+                        <li>Genetics</li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-head">Quick Links</h3>
+                    <ul>
+                        <li><a href="#services" class="text-white">Our Services</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h3 class="footer-head">make an appointment</h3>
+                    <!-- <p class="text text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, omnis.
+                    </p> -->
+                    <ul class="appointment-info">
+                        <li>8:00 AM - 11:00 AM</li>
+                        <li>2:00 PM - 05:00 PM</li>
+                        <li>8:00 PM - 11:00 PM</li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@retroindica.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <ul class="flex">
+                    <li><a href="#" class="text-white flex"> <i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="text-white flex"> <i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-white flex"> <i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            // Initialize EmailJS with your user ID
+            emailjs.init("chHkXreTgsZmJLBya");
+
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const submitBtn = document.getElementById('submit-btn');
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+
+                const serviceID = 'default_service';
+                const templateID = 'template_0tdvbcd';
+
+                emailjs.sendForm(serviceID, templateID, this)
+                    .then(() => {
+                        submitBtn.textContent = 'Send Email';
+                        submitBtn.disabled = false;
+                        alert('Message sent successfully!');
+                        this.reset();
+                    }, (error) => {
+                        submitBtn.textContent = 'Send Email';
+                        submitBtn.disabled = false;
+                        alert('Failed to send the message. Error: ' + JSON.stringify(error));
+                    });
+            });
+        })();
+    </script>
+</body>
+
+</html>
